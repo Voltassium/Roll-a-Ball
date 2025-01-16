@@ -5,11 +5,11 @@ using UnityEngine.Audio;
 public class OptionsMenuController : MonoBehaviour
 {
     public Slider volumeSlider;
-    public AudioSource backgroundMusic; 
+    public AudioSource backgroundMusic;
 
     void Start()
     {
-        if (volumeSlider != null && backgroundMusic != null) 
+        if (volumeSlider != null && backgroundMusic != null)
         {
             volumeSlider.value = backgroundMusic.volume;
             volumeSlider.onValueChanged.AddListener(SetVolume);

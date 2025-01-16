@@ -8,7 +8,7 @@ public class PauseManager : MonoBehaviour
     public Button restartButton;
     public Button optionsButton;
     public Button quitButton;
-    public GameObject optionsMenuCanvas; 
+    public GameObject optionsMenuCanvas;
 
     private bool isPaused = false;
 
